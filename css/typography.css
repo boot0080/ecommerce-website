@@ -1,7 +1,10 @@
 /*
   Colour Palette
-  - Dark green: #060 - rgb(0, 100, 0)
-  - Dark red: #600 - rgb(100, 0, 0)
+  - Grey (font): #78797e
+  - Light Grey: #99999d
+  - Light turquoise: #3098a7
+  - Dark turquoise: #1f727e
+  - Opaque Turquoise: solid rgba(48, 152, 167, 0.54)
  */
 
 html {
@@ -63,14 +66,14 @@ small, .milli {
   line-height: 2.1600;
 }
 
-h1, h2, h3, h4, h5, h6 .brand {
+h1, h2, h3, h4, h5, h6, .brand {
   font-family: 'Roboto Slab', serif;
   font-weight: 400;
-  color: #54565c;
+  color: #1f727e;
 }
 
 p {
-  color: #343641;
+  color: #78797e;
 }
 
 .yotta {
@@ -78,7 +81,7 @@ p {
     font-weight: 700;
   }
 
-.giga {
+.giga, .tera {
     text-transform: uppercase;
 }
        
@@ -96,7 +99,7 @@ p {
 
 a, 
 a:link {
-    color: #7b7c81;
+    color: #99999d;
     text-decoration: none;
     border-bottom: 0.1em solid rgba(48, 152, 167, 0.22);
     transition: all 200ms linear;
@@ -130,5 +133,81 @@ ul li:before {
 }
 
 blockquote {
-  margin: 0 2rem 0;
+  padding: 0 1.5em 0 1.25em;
+  margin: 1.5em 0;
+  border-left: 0.25em solid rgba(48, 152, 167, 0.54);
+}
+
+th {
+  background: rgba(220, 224, 217, 0.21);
+  text-align: left;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #64676d;
+}
+
+table {
+  margin: 1em 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: table;
+  border-color: gray;
+}
+
+thead {
+  display: table-header-group;
+  font-family: 'Roboto Slab', serif;
+  background: rgba(220, 224, 217, 0.4);
+}
+
+
+th, td {
+  display: table-cell;
+  border-bottom: 1px solid #dce0d9;
+  padding: 0.5em;
+}
+
+caption {
+    margin: 0 0 1.5em;
+}
+
+mark {
+    background-color: rgba(57, 184, 203, 0.35);
+}
+
+hr {
+ font-weight: 700;
+font-size: 2em;
+line-height: 1;
+text-align: center;
+margin: 1em 0 2em;
+border: 0;
+padding: 0;
+height: 0;
+clear: both;
+display: block;   
+}
+
+hr::after {
+  content: "···";
+  color: #bbb;
+  letter-spacing: 1em;
+  padding-left: 1em;
+  height: 0;
+}
+
+
+footer, cite {
+  color: #3098a7; 
+}
+
+
+dt {
+  display: block;
+  font-weight: 700;
+  color: #3098a7;
+}
+
+dd {
+  margin-left: 1.5em;   
 }
