@@ -150,19 +150,16 @@ table {
   margin: 1em 0;
   border-collapse: collapse;
   border-spacing: 0;
-  display: table;
   border-color: gray;
 }
 
 thead {
-  display: table-header-group;
   font-family: 'Roboto Slab', serif;
   background: rgba(220, 224, 217, 0.4);
 }
 
 
 th, td {
-  display: table-cell;
   border-bottom: 1px solid #dce0d9;
   padding: 0.5em;
 }
@@ -176,16 +173,16 @@ mark {
 }
 
 hr {
- font-weight: 700;
-font-size: 2em;
-line-height: 1;
-text-align: center;
-margin: 1em 0 2em;
-border: 0;
-padding: 0;
-height: 0;
-clear: both;
-display: block;   
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 1;
+  text-align: center;
+  margin: 1em 0 2em;
+  border: 0;
+  padding: 0;
+  height: 0;
+  clear: both;
+  display: block;   
 }
 
 hr::after {
