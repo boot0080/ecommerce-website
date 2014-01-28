@@ -31,6 +31,7 @@ body {
 	text-transform: uppercase;
 	color: #1f727e;
 	font-weight: 700;
+	font-family: "Roboto Slab", serif;
 }
 .deal span:last-of-type {
   font-size: 13px;
