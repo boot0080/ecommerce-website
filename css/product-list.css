@@ -1,51 +1,11 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 400;  
-}
-
 .img-flex {
     display: block;
-    width: 90%;
-		padding: .75em 
+    width: 100%;  
 }
 
-.promo {
-  width: 250px;
-  background: rgba(219, 219, 219, 0.79); 
-  color: #fff;
-  float: left;
-}
+.product {
+    background-color: rgba(219, 219, 219, 0.79);
 
-.deal {
-  padding: 10px 0 0 0;
-}
-
-.deal span {
-  display: block;
-  text-align: center;
-}
-
-.deal span:first-of-type {
-  font-size: 23px;  
-	text-transform: uppercase;
-	color: #1f727e;
-	font-weight: 700;
-	font-family: "Roboto Slab", serif;
-}
-.deal span:last-of-type {
-  font-size: 13px;
-}
-.promo .price {
-  display: block;
-  width: 250px; 
-  background: rgb(235, 235, 235);
-  margin: 8px 0 8px 0;
-  text-align: center;
-  font-size: 26px;
-  padding: 17px 0 17px 0;
-	color: #3098a7;
-	font-weight: 700;
 }
 
 ul {
@@ -55,6 +15,7 @@ ul {
   list-style-type: none;
   text-align: center;
   color: #393939;
+  font-size: 14px
 }
 
 li {
@@ -63,6 +24,40 @@ li {
 }
 
 .btn {
-  margin: 10px 0px 20px 70px;
+  margin: 10px 0px 30px 90px;
 }
 
+.title {
+  font-size: 23px;  
+  display: block;
+  text-align: center;
+	text-transform: uppercase;
+	color: #1f727e;
+	font-weight: 700;
+	font-family: "Roboto Slab", serif;
+}
+
+.media-body {
+  padding: 10px 0 0 0;
+}
+
+.media-body span {
+  display: block;
+  text-align: center; 
+}
+
+.info {
+  font-size: 13px;
+  color: #fff;
+}
+
+.media-body .price {
+  display: block;
+  background: rgb(235, 235, 235);
+  margin: 8px 0 8px 0;
+  text-align: center;
+  font-size: 26px;
+  padding: 17px 0 17px 0;
+	color: #3098a7;
+	font-weight: 700;
+}
