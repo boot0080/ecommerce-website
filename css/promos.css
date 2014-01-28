@@ -1,0 +1,22 @@
+.media-img {
+    display: block;
+    float: left;  
+    border: 5px solid #3098a7;
+}
+
+.media {
+    background-color: rgba(219, 219, 219, 0.79);
+    padding: 2em;
+}
+
+.media-body {
+    padding-top: 4em;
+}
+
+.span {
+    display: block;
+}
+
+
+
+
