@@ -195,7 +195,10 @@ hr::after {
 
 
 footer, cite {
+  display: block    
   color: #3098a7; 
+  margin-top: -1.5rem;
+  text-align: right;
 }
 
 
