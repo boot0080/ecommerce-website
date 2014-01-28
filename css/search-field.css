@@ -1,0 +1,44 @@
+
+#search-text {
+  width: 297px;
+  padding: 15px 0 15px 20px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  border: 0 none;
+  height: 52px;
+  margin-right: 0px;
+  color: #fff;
+  outline: none;
+  background: rgba(55, 171, 188, 0.32);
+  float: left;
+  box-sizing: border-box;
+  transition: all 0.15s;
+}
+
+#search-text:focus{
+  background: #3eb8c9;
+}
+
+::-webkit-input-placeholder {
+  color:white;
+}
+:-moz-placeholder {
+  color:white;
+}
+::-moz-placeholder {
+  color:white;
+}
+:-ms-input-placeholder {
+  color:white;
+}
+
+#search-button{
+  border: 0 none;
+  background: #3098a7 url(http://designmodo.com/demo/dropdown-menu-search/search.png) center no-repeat;
+  width: 60px;
+  float: left;
+  padding: 0;
+  text-align: center;
+  height: 52px;
+  cursor: pointer;
+}
