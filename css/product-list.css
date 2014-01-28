@@ -4,9 +4,15 @@ body {
   font-weight: 400;  
 }
 
+.img-flex {
+    display: block;
+    width: 90%;
+		padding: .75em 
+}
+
 .promo {
   width: 250px;
-  background: #dedede; 
+  background: rgba(219, 219, 219, 0.79); 
   color: #fff;
   float: left;
 }
@@ -18,25 +24,27 @@ body {
 .deal span {
   display: block;
   text-align: center;
-	font-weight: 600;
 }
 
 .deal span:first-of-type {
   font-size: 23px;  
+	text-transform: uppercase;
+	color: #1f727e;
+	font-weight: 700;
 }
 .deal span:last-of-type {
   font-size: 13px;
 }
 .promo .price {
   display: block;
-  width: 250px;  
-  background: #d1d1d1;
-  margin: 15px 0 10px 0;
+  width: 250px; 
+  background: rgb(235, 235, 235);
+  margin: 8px 0 8px 0;
   text-align: center;
-  font-size: 23px;
+  font-size: 26px;
   padding: 17px 0 17px 0;
 	color: #3098a7;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 ul {
@@ -54,7 +62,6 @@ li {
 }
 
 .btn {
-	padding: 10px 37px;
-  margin: 10px 0 20px 60px;
+  margin: 10px 0px 20px 70px;
 }
 
