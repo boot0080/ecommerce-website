@@ -1,12 +1,11 @@
 .media-img {
     display: block;
     float: left;  
-    border: 5px solid #3098a7;
+    padding: 2em;
 }
 
 .media {
     background-color: rgba(219, 219, 219, 0.79);
-    padding: 2em;
 }
 
 .media-body {
@@ -17,6 +16,14 @@
     display: block;
 }
 
+.media-img-small {
+    float: none;
+    display: block; 
+    width: 100%;
+    padding-left: 5em;
+}
 
-
+.media-small {
+    padding-top: 1.5em;
+}
 
