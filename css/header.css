@@ -1,5 +1,19 @@
 .logo {
     float: left;
     display: block;
-    
+    width: 100%;
+    margin: 5 auto;
+    max-width: 130px;
+    padding: .75rem;
 }
+
+nav {
+    display: block;
+}
+    
+nav li{
+		display: inline-block;
+		float: none;
+		margin: 4em;
+		width:auto;
+	}
