@@ -7,12 +7,12 @@
 
 nav {
     display: block;
-    background: rgba(31, 114, 126, 0.36);
+    background: rgba(31, 114, 126, 0.17);
 }
     
 nav li {
 		display: inline-block;
-		margin: 4em;
+		margin: 3.5em;
 	}
 
 .list-group-item::before {
@@ -29,5 +29,6 @@ nav li {
 #search {
     display: block;
     float: right;
+    margin: 3.5em 1em 0 0;
 }
 
