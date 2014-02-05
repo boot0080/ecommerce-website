@@ -3,7 +3,7 @@
     display: block;
     width: 100%;
     margin: 5 auto;
-    max-width: 130px;
+    max-width: 110px;
     padding: .75rem;
 }
 
@@ -17,3 +17,11 @@ nav li{
 		margin: 4em;
 		width:auto;
 	}
+
+#search {
+    display: block;
+    float: right;
+
+    
+    
+}
