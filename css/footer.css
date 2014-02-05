@@ -1,8 +1,21 @@
+nav li {
+    float: left;
+    margin: 2em;
+    display: block;
+    float: left;
+}
+
+
+section {
+    margin: 2em;
+}   
 
 p {
-    float: left;
-    padding: 3em;
+    float: right;
+    padding: 2em;
+
 }
+
 
 .ease-all{
 	-webkit-transition: all 350ms ease-in-out;
@@ -26,7 +39,7 @@ p {
   float: left;
 	width: 40px;
 	height: 30px;
-	margin-right: 1rem;
+	margin-right:rem;
 	text-align: center;
 	padding-top: 0.8125rem;
 
