@@ -1,0 +1,9 @@
+.img-flex {
+ float: left;
+ width: 50%;
+}
+
+.media-body {
+    float: right;
+     width: 50%;
+}
