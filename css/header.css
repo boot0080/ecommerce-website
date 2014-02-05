@@ -1,27 +1,33 @@
 .logo {
     float: left;
     display: block;
-    width: 100%;
-    margin: 5 auto;
     max-width: 110px;
     padding: .75rem;
 }
 
 nav {
     display: block;
+    background: rgba(31, 114, 126, 0.36);
 }
     
-nav li{
+nav li {
 		display: inline-block;
-		float: none;
 		margin: 4em;
-		width:auto;
 	}
+
+.list-group-item::before {
+    content:"";
+}
+
+.list-group-item {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.15em;
+}
 
 #search {
     display: block;
     float: right;
-
-    
-    
 }
+

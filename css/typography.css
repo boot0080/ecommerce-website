@@ -158,6 +158,9 @@ thead {
   background: rgba(220, 224, 217, 0.4);
 }
 
+.list-group-item {
+    color: #fff;
+}
 
 th, td {
   border-bottom: 1px solid #dce0d9;
