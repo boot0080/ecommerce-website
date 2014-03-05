@@ -1,35 +1,37 @@
+.masthead {
+  background-color:rgba(48, 152, 167, 0.23);
+
+}
+
 .logo {
-    float: left;
-    display: block;
-    max-width: 110px;
-    padding: .75rem;
+  margin: 0 auto;
+  max-width: 150px;
 }
 
-nav {
-    display: block;
-    background: rgba(31, 114, 126, 0.17);
-    height: 6em
-}
-    
-nav li {
-		display: inline-block;
-		margin: 2em;
-	}
+@media only screen and (min-width: 50em) {
 
-.list-group-item::before {
-    content:"";
+  .logo {
+    margin: 0;
+  }
+
 }
 
-.list-group-item {
-    text-transform: uppercase;
-    color: #fff;
-    font-weight: 600;
-    font-size: 1.15em;
+.nav {
+  margin-top: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-#search {
-    display: block;
-    float: right;
-    margin: 2em 1em 0 0;
+.nav a {
+  display: inline-block;
+  margin: 0 0.4em;
 }
 
+@media only screen and (min-width: 50em) {
+
+  .nav {
+    margin-top: 0;
+    text-align: right;
+  }
+
+}
