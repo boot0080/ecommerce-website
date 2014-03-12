@@ -35,3 +35,7 @@
   }
 
 }
+
+.current {
+    background-color: rgba(48, 152, 167, 0.56);
+}
