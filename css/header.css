@@ -39,3 +39,15 @@
 .current {
     background-color: rgba(48, 152, 167, 0.56);
 }
+
+
+.banner {
+    background: #8bbc3c url("../images/banner1.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 18em 1em 1em;
+    text-align: center;
+}
+
+.banner h2 {
+    color: #fff;
+}
