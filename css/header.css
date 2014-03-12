@@ -42,9 +42,9 @@
 
 
 .banner {
-    background: #8bbc3c url("../images/banner1.jpg") no-repeat center center;
+    background: rgba(48, 152, 167, 0.56) url("../images/banner1.jpg") no-repeat center center;
     background-size: cover;
-    padding: 18em 1em 1em;
+    padding: 14em 1em 1em;
     text-align: center;
 }
 
