@@ -1,7 +1,7 @@
 .media-img {
-    display: block;
     float: left;  
     padding: 2em;
+    width: 30%;
 }
 
 .media {
@@ -9,7 +9,7 @@
 }
 
 .media-body {
-    padding-top: 4em;
+    padding: 4em;
 }
 
 .span {
