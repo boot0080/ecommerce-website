@@ -1,0 +1,34 @@
+---
+layout: default
+title: Shop
+bannertext: All the different products
+meta: We provide you with everything you need to hit the slopes. 
+---
+
+<ul>
+    {% for shop in site.pages %}
+        {% if shop.category == 'shop' %}
+            <li>
+                <a href="{{site.baseurl}}{{shop.url}}"> 
+                    {{shop.name}}
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+
+<div class="grid">
+    <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+        <h1>Shop</h1>
+    </div>
+    <div class="unit unit-s-1 unit-m-1-2 unit-l-2-3"> 
+        <p>We supply you with a variety of different snowboard brands and equipment. Our prices have been unbeatable for years so you are guarenteed to not find your gear cheaper anywhere else.</p>
+    </div>
+</div>
+
+
+
+
+
+
