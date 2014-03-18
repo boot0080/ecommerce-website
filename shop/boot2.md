@@ -1,6 +1,7 @@
 ---
 layout: shop
 category: boots
-name: DC Snowboard Boots
+name: DC Boots
 image: products/boot.jpg
 ---
+

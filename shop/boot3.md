@@ -1,6 +1,6 @@
 ---
 layout: shop
 category: boots
-name: Salomon Snowboard Boots
+name: Salomon Boots
 image: products/boot.jpg
 ---

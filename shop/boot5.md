@@ -1,6 +1,6 @@
 ---
 layout: shop
 category: boots
-name: Thirty Two Snowboard Boots
+name: Thirty-Two Boots
 image: products/boot.jpg
 ---

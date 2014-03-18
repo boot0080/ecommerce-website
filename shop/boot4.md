@@ -1,6 +1,6 @@
 ---
 layout: shop
 category: boots
-name: Nike Snowboard Boots
+name: Nike Boots
 image: products/boot.jpg
 ---

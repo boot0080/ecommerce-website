@@ -1,6 +1,6 @@
 ---
 layout: shop
 category: boots
-name: Burton Snowboard Boots
+name: Burton Boots
 image: products/boot.jpg
 ---

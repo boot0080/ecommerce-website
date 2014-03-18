@@ -2,19 +2,14 @@
 layout: default
 ---
 
-<ul>
-    {% for shop in site.pages %}
-        {% if shop.category == 'shop' %}
-            <li>
-                <a href="{{site.baseurl}}{{shop.url}}"> 
-                    {{shop.name}}
-                </a>
-            </li>
-        {% endif %}
-    {% endfor %}
-</ul>
-
 <h1>{{page.name}}</h1>
 
+{% include product-details.html %}
+
 {{content}}
+
+
+
+
+
 

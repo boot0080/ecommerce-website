@@ -3,5 +3,32 @@ layout: shop
 title: Boards
 name: Snowboards
 category: shop
+meta:
 ---
+<ul>
+    {% for shop in site.pages %}
+        {% if shop.category == 'shop' %}
+            <li>
+                <a href="{{site.baseurl}}{{shop.url}}"> 
+                    {{shop.name}}
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+
+<ul>
+    {% for shop in site.pages %}
+        {% if shop.category == 'boards' %}
+            <li>
+                <a href="{{site.baseurl}}{{shop.url}}"> 
+                     <img src="{{site.baseurl}}/images/{{shop.image}}" alt="{{shop.name}}"> 
+                    {{shop.name}}
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
 

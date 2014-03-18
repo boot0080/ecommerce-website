@@ -4,4 +4,32 @@ title: Boots
 name: Snowboard Boots
 category: shop
 ---
+
+
+<ul>
+    {% for shop in site.pages %}
+        {% if shop.category == 'shop' %}
+            <li>
+                <a href="{{site.baseurl}}{{shop.url}}"> 
+                    {{shop.name}}
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+
+<ul>
+    {% for shop in site.pages %}
+        {% if shop.category == 'boots' %}
+            <li>
+                <a href="{{site.baseurl}}{{shop.url}}"> 
+                     <img src="{{site.baseurl}}/images/{{shop.image}}" alt="{{shop.name}}"> 
+                    {{shop.name}}
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
  
