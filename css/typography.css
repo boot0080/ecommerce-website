@@ -97,6 +97,11 @@ p {
   color: #fff;
 }
 
+.grid-bottom {
+	text-decoration: none;
+	border: none;
+}	
+
 a, 
 a:link {
     color: #99999d;
@@ -117,16 +122,15 @@ a:active {
   border-bottom-color: #3098a7;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
 ul li{
-    position: relative;
+   position: relative;
 }
 
 ul li:before {
-  content:"·";
   color: #3098a7;
   position: absolute;
   left: -1em;

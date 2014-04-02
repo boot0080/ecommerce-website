@@ -10,51 +10,44 @@ User testing was conducted by {Ariah Boots} on {March 26} between the times of {
 
 1. {Complete a checkout straight to thank you page}
 2. {Find the Salomon snowboard boots}
-3. {Third task description here}
+3. {Comlpete a search}
+
+-After all completed, return to home. 
 
 ---
 
 ## Individual Results & Observations
 
-### {Jane Doe}
+### {Colombina Anzivino}
 
-- {She clicked on the link as expected…}
-- {She had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- {Had no problem with the tasks}
+- {Suggested it easier to distinguish the product images by making them different}
+- {Hesitated a bit on the page with all the products}
+- {Clicked logo to return back home but it wasn't clickable}
 
-### {John Doe}
+### {Martine Cormier}
 
-- {He clicked on the link as expected…}
-- {Tried clicking on the logo to go home but logo wasn't clickable}
-- {He asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- {Tried clicking on the front promos but none were clickable}
+- {Navigated without problem, made comment about no images on product details}
 
-### {Jordan Doe}
+### {Evan Grice}
 
-- {She clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
-
+- {Clicked the link as expected}
+- {He had no problems navigating through the tasks}
+- {Had design related comments}
 ---
 
 ## Trends
 
 ### Critical, Needs Fixing, Unable to Complete
 
-- {All participants had this problem…}
-- etc.
+- {All tasks were completed without major issues}
 
 ### Serious, Causes Frustration, May Hinder Completion
 
-- {Two of the participants succeeded where one of them failed…}
-- etc.
+- {No serious problems}
 
 ### Minor, Annoying, Won’t Hinder Completion
 
-- {Participants pointed out this inconsistency…}
-- etc.
+- {Participants suggested fixing the logo to make it return home and also making front page promo buttons}
+- {Add images to the product details}

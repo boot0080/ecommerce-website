@@ -1,12 +1,17 @@
 .masthead {
   background-color:rgba(48, 152, 167, 0.23);
-
 }
 
 .logo {
   margin: 0 auto;
   max-width: 150px;
 }
+
+a, 
+a:link {
+    text-decoration: none;
+}
+
 
 @media only screen and (min-width: 50em) {
 
