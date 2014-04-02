@@ -128,9 +128,11 @@ a:active {
 	outline: none;
 }
 	
-a:focus {
+a:focus, 
+input:focus,
+button:focus {
 		/*Focus MUST ALWAYS have a focus rectangle for keyboard users */
-		outline: 3px, solid #000;
+		outline: 3px solid #000;
 }
 
 ul {
