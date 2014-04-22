@@ -1,16 +1,17 @@
 ---
 layout: default
+title: Cart
+meta: "All your new goodies"
 ---
 
 <h1>{{page.name}}</h1>
 
-{{content}}
-
 <div class="product">
     <div class="media">
         <div class="media-img media-img-stacked">
-            <img class="img-flex" src="http://placehold.it/140x140" alt="">
+            <img class="img-flex" src="{{site.baseurl}}/images/{{page.image}}" alt="{{page.name}}">
         </div>
+
         <div class="media-body">
          	<h2 class="title">{{page.name}}</h2>
 					<span class="info">The Best of the best!</span>
@@ -23,10 +24,7 @@ layout: default
 					
 					<p> There are lots of great things about this product. I love everything it has to offer. Lots of awesome stuff and gadgets etc. </p>
 					
-          <img class="img-other" src="http://placehold.it/40x40" alt="">
-					<img class="img-other" src="http://placehold.it/40x40" alt="">
-					<img class="img-other" src="http://placehold.it/40x40" alt="">
-            
+        
 					<span class="price">$79</span>
 					
 					<a class="btn" href="{{site.baseurl}}/cart/">BUY NOW</a> 
@@ -34,4 +32,8 @@ layout: default
         </div>
     </div>
 </div>
-    
+
+
+
+
+<a class="btn" href="{{site.baseurl}}/thank-you/">CHECKOUT</a>    

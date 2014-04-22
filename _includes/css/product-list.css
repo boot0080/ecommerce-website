@@ -3,11 +3,6 @@
     width: 100%;  
 }
 
-.product {
-    background-color: rgba(219, 219, 219, 0.79);
-
-}
-
 ul {
   display: block;
   margin: 20px 0 10px 0;
@@ -44,11 +39,6 @@ li {
 .media-body span {
   display: block;
   text-align: center; 
-}
-
-.info {
-  font-size: 13px;
-  color: #fff;
 }
 
 .media-body .price {

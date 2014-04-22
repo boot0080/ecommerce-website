@@ -29,6 +29,8 @@ p, ul, ol, dl, table, hr {
 h1, .exa {
   font-size: 2.4883rem;
   line-height: 1.2056;
+	padding-left: 1.5rem;
+	padding-top: 1rem;
 }
 
 h2, .peta {
@@ -110,10 +112,12 @@ a:link {
     transition: all 200ms linear;
 }
 
+
 a:visited {
-  color: #fff;
+  color: #727272;
   border-bottom-color: rgba(48, 152, 167, 0.22);
 }
+
 
 a:hover,
 a:focus,
