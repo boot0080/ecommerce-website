@@ -1,10 +1,11 @@
 .masthead {
-  background-color:rgba(48, 152, 167, 0.23);
+  background-color:rgb(32, 105, 116);
 }
 
 .logo {
   margin: 0 auto;
-  max-width: 150px;
+  max-width: 175px;
+	padding: .75rem;
 }
 
 a, 
@@ -16,7 +17,7 @@ a:link {
 @media only screen and (min-width: 50em) {
 
   .logo {
-    margin: 0;
+    margin: auto;
   }
 
 }
@@ -25,11 +26,12 @@ a:link {
   margin-top: 1.5rem;
   text-align: center;
   text-transform: uppercase;
+	padding-right: .75em;
 }
 
 .nav a {
   display: inline-block;
-  margin: 0 0.4em;
+  margin: .75em .75em;
 }
 
 @media only screen and (min-width: 50em) {
@@ -42,7 +44,7 @@ a:link {
 }
 
 .current {
-    background-color: rgba(48, 152, 167, 0.56);
+    background-color: rgba(48, 152, 167, 0.34);
 }
 
 
